@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- Normalise -->
+        <link rel="stylesheet" href="src/css/normalise.css">
+
+        <!-- Estilo -->
+        <link rel="stylesheet" href="src/css/header.css">
+        <link rel="stylesheet" href="src/css/var.css">
+        <link rel="stylesheet" href="src/css/footer.css">
+        <link rel="stylesheet" href="src/css/cursos.css">
+        <link rel="stylesheet" href="src/css/beneficios.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+
+        <!--[if lt IE 9]>
+	        <script src="src/js/html5shiv.js"></script>
+        <![endif]-->
+        <title>UNES</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                       <h1 id="logo">UNES</h1> 
+                    </a>
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse menu" id="nav-principal">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item bordal">
+                            <a href="">Sobre</a>
+                          </li>
+                          <li class="nav-item bordar">
+                            <a href="">Cursos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="login.html" class="btn botao">Logar</a>
+                          </li>
+                        </ul>
+                    </div>
+
+                    <form class="pesquisas">
+                        <div class="input-group input-group-lg">
+                          <input type="text" id="" placeholder="Pesquisar" class="form-control">
+                          <div class="input-group-append    ">
+                            <button type="button" class="btn btn-primary">Enter</button>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <section id="cursos"> <!-- INICIO cursos -->
+            <div class="container">
+                <h2>Cursos da UNES</h2>
+                <table>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Semestres</th>
+                        <th>Supeior</th>
+                    </tr>
+                    <tr>
+                        <td>Administração</td>
+                        <td>4 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+                    <tr class="alternado">
+                        <td>Análise e Desenvolvimento de Sistemas</td>
+                        <td>2,5 anos de duração</td>
+                        <td>Tecnólogo</td>
+                    </tr>
+                    <tr>
+                        <td>Arquitetura e Urbanismo</td>
+                        <td>5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+                    <tr class="alternado">
+                        <td>Biomedicina</td>
+                        <td>4,5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ciência da Computação</td>
+                        <td>4 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr class="alternado">
+                        <td>Ciência de Dados e Machine Learning (Inteligência Artificial)</td>
+                        <td>3,5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr>
+                        <td>Direito</td>
+                        <td>5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr class="alternado">
+                        <td>Educação Física</td>
+                        <td>4 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr>
+                        <td>Enfermagem</td>
+                        <td>5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr class="alternado">
+                        <td>Engenharia Civil</td>
+                        <td>5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr>
+                        <td>Engenharia da Computação (Software e Hardware)</td>
+                        <td>4,5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+
+                    <tr class="alternado">
+                        <td>Fisioterapia</td>
+                        <td>5 anos de duração</td>
+                        <td>Bacharelado</td>
+                    </tr>
+                </table>
+            </div>
+        </section><!-- FIM cursos -->
+
+        <section id="beneficios"><!-- INICIO beneficios -->
+            <div class="container">
+                <h2>USE SUA NOTA DO ENEM OU VESTIBULAR</h2>
+                <p>
+                    Faça o Vestibular ou use sua nota do ENEM, desde 2010, e ganhe de 30% a 50% de bolsa em todo o curso
+                </p>
+                <div class="row">
+                    <div class="col-md-6 caixa">
+                        <h3>ENEM</h3>
+                        <div class="box row">
+                            <div class="col-6 pontos">De 350 a 699 pontos</div> <div class="col-6 valor superior">30% DE BOLSA</div>
+                            <div class="col-6 pontos">De 700 a 749 pontos</div> <div class="col-6 valor">40% DE BOLSA</div>
+                            <div class="col-6 pontos sbordap">Igual ou maior que 750</div> <div class="col-6 valor sborda">50% DE BOLSA</div>
+                        </div>
+                        <button class="btn">QUERO ME INSCREVER INSCREVER</button>
+                    </div>
+                    <div class="col-md-6 caixa">
+                        <h3>VESTIBULAR</h3>
+                        <div class="box row">
+                            <div class="col-6 pontos">De 500 a 1399 pontos</div> <div class="col-6 valor superior">30% DE BOLSA</div>
+                            <div class="col-6 pontos">De 1400 a 1599 pontos</div> <div class="col-6 valor">40% DE BOLSA</div>
+                            <div class="col-6 pontos sbordap">Acima de 1600 pontos</div> <div class="col-6 valor sborda">50% DE BOLSA</div>
+                        </div>
+                        <button class="btn">QUERO ME INSCREVER INSCREVER</button>
+                    </div>
+                </div>
+            </div>
+        </section><!-- FIM beneficios -->
+
+        <footer>
+            <div class="containe">
+                <div>
+                    <h1 id="logo">UNES</h1> 
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="src/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Normalise -->
+        <link rel="stylesheet" href="src/css/normalise.css">
+
+        <!-- Estilo -->
+        <link rel="stylesheet" href="src/css/login.css">
+        <link rel="stylesheet" href="src/css/header.css">
+        <link rel="stylesheet" href="src/css/var.css">
+        <link rel="stylesheet" href="src/css/footer.css">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
+
+        <!--[if lt IE 9]>
+	        <script src="src/js/html5shiv.js"></script>
+        <![endif]-->
+        <title>UNES - Login</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                       <h1 id="logo">UNES</h1> 
+                    </a>
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse menu" id="nav-principal">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item bordal">
+                            <a href="">Sobre</a>
+                          </li>
+                          <li class="nav-item bordar">
+                            <a href="cursos.html">Cursos</a>
+                          </li>
+                        </ul>
+                    </div>
+
+                    <form class="pesquisas">
+                        <div class="input-group input-group-lg">
+                          <input type="text" id="" placeholder="Pesquisar" class="form-control">
+                          <div class="input-group-append">
+                            <button type="button" class="btn btn-primary">Enter</button>
+                          </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="container">
+                <div id="box">
+                    <img src="src/img/perfil.png" alt="Imagem de perfil">
+                    <form>
+                        <div id="emailSenha">
+                            <div class="input-group input-group-lg">
+                                <input type="text" id="" placeholder="Login" class="form-control">
+                            </div>
+                            <div class="input-group input-group-lg">
+                                <input type="text" id="" placeholder="Senha" class="form-control">
+                            </div>
+                        </div>
+                        <div>
+                            <input class="submit btn" type="submit" value="Logar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="containe">
+                <div>
+                    <h1 id="logo">UNES</h1> 
+                </div>
+            </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="src/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>

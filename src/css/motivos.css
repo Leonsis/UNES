@@ -1,0 +1,63 @@
+section#motivos {
+    margin-bottom: 0;
+    border: 0px;
+}
+
+section#motivos nav h3,
+section#motivos nav h4{
+    text-align: center;
+}
+
+section#motivos nav h4{
+    color: var(--cor-branco);
+}
+
+section#motivos nav div.caixa{
+    background: var(--cor-primaria);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section#motivos nav div.caixa div nav p{
+    color: var(--cor-branco);
+    text-align: justify;
+    padding-top: 10px;
+}
+
+section#motivos nav div.caixa div img{
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+    section#motivos nav div.estrutura{
+        background: url(../img/Estrutura.jpg) center;
+        background-size: 100%;
+    }
+
+    section#motivos nav div.estudo{
+        background: url(../img/Estudo1.jpg) center;
+        background-size: 100%;
+    }
+
+    section#motivos nav div.professor{
+        background: url(../img/professores.jpg) center;
+        background-size: 100%;
+    }
+
+    section#motivos nav div.faculdade{
+        background: url(../img/faculdade.jpg) center;
+        background-size: 100%;
+    }
+
+    section#motivos nav div.localizacao{
+        background: url(../img/faculdade.jpg) center;
+        background-size: 100%;
+    }
+
+    section#motivos nav div .box{
+        border-radius: 5px;
+        padding: 5px;
+        background-color: var(--cor-primaria-traslucida);
+    }
+}

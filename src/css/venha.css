@@ -1,0 +1,14 @@
+section {
+    border-bottom: 1px solid var(--cor-primaria-traslucida);
+    margin-bottom: 20px;
+    margin: 15px 10px;
+}
+
+section#venha div div.texto {
+    margin-top: 10px;
+}
+
+section#venha div div.texto h2 {
+    text-align: center;
+    border-bottom: 1px solid var( --cor-primaria-traslucida);
+}

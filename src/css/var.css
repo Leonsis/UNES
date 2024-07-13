@@ -1,0 +1,5 @@
+:root {
+    --cor-primaria: rgb(56, 63, 93);
+    --cor-branco: rgb(255, 255, 255);
+    --cor-primaria-traslucida: rgba(56, 63, 93, 0.8);
+}

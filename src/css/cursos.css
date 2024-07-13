@@ -1,0 +1,33 @@
+section#cursos {
+    margin: 20px 0;
+}
+
+section#cursos h2{
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+}
+
+th, td {
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid var(--cor-primaria);
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+tr.alternado {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: var(--cor-primaria-traslucida);
+    color: var(--cor-branco);
+}

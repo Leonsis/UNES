@@ -1,0 +1,28 @@
+section#motivos {
+    border: none;
+}
+
+section#motivos h2{
+    text-align: center;
+}
+
+section#motivos .titulo{
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--cor-primaria-traslucida);
+}
+
+section#motivos div.bloco{
+    text-align: center;
+}
+
+section#motivos div.bloco img{
+    margin-bottom: 20px;
+}
+
+section#motivos nav div#carousel-controles img{
+    border-radius: 10px;
+}
+
+section#motivos nav div#carousel-controles {
+    width: 80%;   
+}

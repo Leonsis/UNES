@@ -1,0 +1,25 @@
+section div{
+    text-align: center;
+    margin-top: 5px;
+}
+
+section div div#box{
+    padding: 100px;
+    margin: 50px auto;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+}
+
+section div form div#emailSenha input{
+    display: block;
+    margin-bottom: 5px;
+    margin: 5px auto;
+}
+
+section div form {
+    border: 2px solid var(--cor-branco);
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}

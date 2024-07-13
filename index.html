@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="src/css/var.css">
         <link rel="stylesheet" href="src/css/footer.css">
         <link rel="stylesheet" href="src/css/motivos.css">
+        <link rel="stylesheet" href="src/css/capa.css">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css">
@@ -35,9 +36,6 @@
 
                     <div class="collapse navbar-collapse menu" id="nav-principal">
                         <ul class="navbar-nav ml-auto">
-                          <li class="nav-item bordal">
-                            <a href="">Sobre</a>
-                          </li>
                           <li class="nav-item bordar">
                             <a href="cursos.html">Cursos</a>
                           </li>
@@ -50,7 +48,7 @@
                     <form class="pesquisas">
                         <div class="input-group input-group-lg">
                           <input type="text" id="" placeholder="Pesquisar" class="form-control">
-                          <div class="input-group-append    ">
+                          <div class="input-group-append">
                             <button type="button" class="btn btn-primary">Enter</button>
                           </div>
                         </div>
@@ -59,13 +57,16 @@
             </nav>
         </header>
 
+        <section id="capa"><!-- INICIO capa -->
+            <div>
+                <img src="src/img/capa.png" alt="" width="100%">
+            </div>
+        </section><!-- FIM capa-->
+
         <section id="venha"><!-- INICIO venha-->
             <div class="container">
                 <div class="row">
-                    <div>
-                        <img src="src/img/capa.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="texto">
+                    <div class="texto col-12">
                         <h2>Venha para a UNES</h2>
                         <nav>
                             <h3>Sobre a universidade</h3>
@@ -80,131 +81,84 @@
 
         <section id="motivos"> <!-- INICIO motivos-->
             <nav>
-                <h3>Sobre a universidade</h3>
-                <div class="container caixa estrutura">
-                    <div class="row ">
-                        <div class="col-xl-6">
-                            <nav class="box">
-                                <h4>Material sempre atualizado</h6>
-                                <p>
-                                    Na UNES, os materiais utilizados refletem o compromisso da instituição 
-                                    com a qualidade do ensino e com a preparação dos alunos para os desafios 
-                                    do mercado de trabalho. Isso inclui desde livros e materiais didáticos 
-                                    atualizados até recursos digitais e laboratórios equipados com tecnologia 
-                                    de ponta. Os estudantes têm acesso a bibliotecas bem abastecidas, com uma 
-                                    vasta coleção de livros, periódicos e recursos online, garantindo que tenham 
-                                    acesso às últimas pesquisas e informações relevantes para seus estudos. Além 
-                                    disso, os laboratórios da UNES são equipados com equipamentos modernos e 
-                                    sofisticados, permitindo que os alunos realizem experimentos práticos e 
-                                    desenvolvam habilidades técnicas essenciais para suas áreas de estudo. 
-                                    A universidade também investe em recursos digitais, como plataformas de 
-                                    ensino online e software especializado, para enriquecer a experiência de 
-                                    aprendizado e preparar os alunos para um mundo cada vez mais digitalizado.
-                                </p>
-                            </nav>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="src/img/Estrutura.jpg" alt="" class="img-fluid d-none d-xl-block">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container caixa estudo">
+                <div class="container">
                     <div class="row">
-                        <div class="col-xl-6">
-                            <nav class="box">
-                                <h4>Tablets em salas de aula</h4>
-                                <p>
-                                    Na UNES, os tablets são utilizados como ferramentas inovadoras para 
-                                    aprimorar o estudo e a experiência educacional dos alunos. 
-                                    Aqui alguns exemplos sobre como esses dispositivos são integrados ao 
-                                    ambiente acadêmico: <br/>
-                                    1- Aplicativos Educacionais: Os tablets vêm equipados com uma variedade
-                                    de aplicativos educacionais que auxiliam no aprendizado de diferentes 
-                                    disciplinas. Apps interativos de ciências, matemática, idiomas e outras 
-                                    áreas do conhecimento oferecem recursos adicionais para o estudo 
-                                    independente e a prática de habilidades. <br/>
-                                    2- Aulas Interativas: Professores utilizam tablets para tornar as aulas mais 
-                                    interativas. Ferramentas como apresentações dinâmicas, quizzes ao vivo e o 
-                                    compartilhamento de conteúdo digital em tempo real enriquecem o ambiente de 
-                                    aprendizagem e mantêm os alunos engajados.
-                                </p>
-                            </nav>
+                        <div class="col-12 titulo">
+                            <h2>Por que UNES?</h2>
                         </div>
-                        <div class="col-6">
-                            <img src="src/img/Estudo1.jpg" alt="" class="img-fluid d-none d-xl-block">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container caixa professor">
-                    <div class="row">
-                        <div class="col-xl-6">
-                            <nav class="box">
-                                <h4 class="card-title">Professores renomados</h4>
-                                <p class="card-text">
-                                    A UNES se destaca pela qualidade e competência de seu corpo docente composto
-                                    por professores renomados que contribuem significativamente para a excelência
-                                    acadêmica da instituição.
-                                    Esses professores não só são reconhecidos por suas conquistas acadêmicas e 
-                                    profissionais, mas também por seu compromisso com a educação e o desenvolvimento 
-                                    dos alunos da UNES. Suas contribuições enriquecem o ambiente acadêmico, 
-                                    proporcionando uma formação de alta qualidade e preparando os alunos para 
-                                    enfrentar os desafios do mercado de trabalho e da pesquisa científica.
-                                </p>
-                            </nav>
-                        </div>
-                        <div class="col-6">
-                            <img src="src/img/professores.jpg" alt="" class="img-fluid d-none d-xl-block">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container caixa faculdade">
-                    <div class="row">
-                        <div class="col-xl-6">
-                            <nav class="box">
-                                <h4>Universidade bem renomada</h4>
-                                <p>
-                                    É uma instituição de ensino superior reconhecida nacional e internacionalmente 
-                                    pela excelência acadêmica, inovação, pesquisa de ponta e contribuições 
-                                    significativas para a sociedade. 
-                                    A Universidade possui programas acadêmicos rigorosos, um corpo docente 
-                                    composto por especialistas renomados e uma infraestrutura de alta qualidade que inclui 
-                                    bibliotecas extensas, laboratórios avançados e recursos tecnológicos de ponta.
-                                    Temos parcerias com outras instituições de prestígio ao redor do mundo, 
-                                    facilitando intercâmbios acadêmicos e colaborando em pesquisas globais.
-                                    Além disso, promovemos a inovação, o empreendedorismo e a transferência de conhecimento 
-                                    para a indústria e o governo.
-                                </p>
-                            </nav>
-                        </div>
-                        <div class="col-6">
-                            <img src="src/img/faculdade.jpg" alt="" class="img-fluid d-none d-xl-block">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container caixa localizacao">
-                    <div class="row">
-                        <div class="col-xl-6">
-                            <nav class="box">
-                                <h4 class="card-title">Ótima localização</h4>
-                                <p class="card-text">
-                                    Nos estamos localizados na vibrante cidade de Nova Esperança, 
-                                    um centro urbano conhecido por sua diversidade cultural e oportunidades acadêmicas. 
-                                    Situada no bairro universitário, a UNES desfruta de um ambiente dinâmico e acolhedor, 
-                                    cercado por parques, bibliotecas, cafés e livrarias, uma atmosfera ideal para o estudo
-                                </p>
-                            </nav>
-                        </div>
-                        <div class="col-6">
-                            <img src="src/img/localizacao.jpg" alt="" class="img-fluid d-none d-xl-block">
+                        <div class="col-12 bloco">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="src/img/ranking-star-solid.svg" class="img-fluid" width="100">
+                                        <h3>Nota máxima no MEC</h3>
+                                        <p>
+                                            Diversos cursos do CEUB são avaliados com conceito 5 pelo MEC, 
+                                            atestando sua excelência em educação superior.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="src/img/brain-solid.svg" class="img-fluid" width="100">
+                                        <h3>Aprendizado na prática</h3>
+                                        <p>
+                                            Aqui, o conhecimento se constrói unindo a interação em sala de aula com 
+                                            projetos realizados por alunos e professores.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="src/img/google.svg" class="img-fluid" width="100">
+                                        <h3>Google for Education</h3>
+                                        <p>
+                                            Em parceria com o CEUB, o serviço disponibiliza ferramentas que complementam as atividades 
+                                            em sala de aula e recursos para projetos individuais e cooperativos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </nav>
+
+            <nav>
+                <div class="container d-flex justify-content-center">
+                    <div id="carousel-controles" class="carousel slide" data-ride="carousel"><!-- INICIO carousel-->
+                        <div class="carousel-inner"><!-- INICIO inner -->
+                          
+                            <div class="carousel-item active">
+                                <img src="src/img/Estrutura.jpg" class="img-fluid" width="1500">
+                            </div>
+                          
+                            <div class="carousel-item">
+                                <img src="src/img/Estudo1.jpg" class="img-fluid" width="1500">
+                            </div>
+            
+                            <div class="carousel-item">
+                                <img src="src/img/faculdade.jpg" class="img-fluid" width="1500">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/localizacao.jpg" class="img-fluid" width="1500">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="src/img/professores.jpg" class="img-fluid" width="1500">
+                            </div>
+                        </div><!-- FIM inner -->
+            
+                        <!-- Controles -->
+                        <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+            
+                        <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                      </div><!-- FIM carousel -->
+                </div>
+            </nav>
         </section><!-- FIM motivos -->
+
 
         <footer>
             <div class="containe">
